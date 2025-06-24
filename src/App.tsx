@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider } from './components/ThemeProvider';
 import { useAuthStore } from './stores/useAuthStore';
@@ -24,7 +25,7 @@ import { ImportExportModal } from './components/modals/ImportExportModal';
 import NoteTemplates from './components/notes/NoteTemplates';
 
 function App() {
-  const { user, isLoading } = useAuthStore();
+  const { isLoading } = useAuthStore();
   const { 
     searchModalOpen, 
     templatesModalOpen, 

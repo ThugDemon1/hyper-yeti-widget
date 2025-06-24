@@ -1,9 +1,7 @@
-
 import React from 'react';
-import { Pin, Calendar, Paperclip, MoreVertical, Edit, Copy, Share2, Trash2 } from 'lucide-react';
+import { Pin, Calendar, Paperclip, MoreVertical, Edit, Copy, Share2, Trash2, FileText } from 'lucide-react';
 import { useNotesStore } from '../../stores/useNotesStore';
 import { Note } from '../../stores/useNotesStore';
-import { spacingClasses } from '../../styles/design-tokens';
 
 interface EvernoteNotesListProps {
   notes: Note[];
@@ -16,7 +14,6 @@ interface EvernoteNotesListProps {
 export const EvernoteNotesList: React.FC<EvernoteNotesListProps> = ({
   notes,
   loading,
-  viewMode,
   onNoteSelect,
   selectedNoteId
 }) => {

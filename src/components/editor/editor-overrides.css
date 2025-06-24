@@ -1,0 +1,5 @@
+[contenteditable="true"].editor-force-ltr {
+  direction: ltr !important;
+  text-align: left !important;
+  unicode-bidi: plaintext !important;
+} 

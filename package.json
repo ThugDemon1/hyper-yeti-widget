@@ -4,11 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "server": "nodemon server/index.js",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+   "build:dev": "vite build --mode development"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",

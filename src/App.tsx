@@ -40,7 +40,7 @@ function App() {
     );
   }
 
-  if (!user) {
+  if (false) {
     return (
       <ThemeProvider>
         <Router>
